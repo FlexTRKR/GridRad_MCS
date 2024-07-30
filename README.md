@@ -7,7 +7,7 @@ This repository contains analysis codes and Jupyter Notebooks for the MCS tracki
 ## Post-processing Scripts
 ---
 
-The `/src` directory contains post-processing scripts. 
+The [/src](https://github.com/FlexTRKR/GridRad_MCS/tree/main/src) directory contains post-processing scripts. 
 
 --
 
@@ -80,7 +80,24 @@ The `${}` are command line inputs, examples:
 ## Analysis Notebooks
 ---
 
-The `/Notebooks` directory contains Jupyter Notebooks for plotting MCS statistics. 
+The [/Notebooks](https://github.com/FlexTRKR/GridRad_MCS/tree/main/Notebooks) directory contains Jupyter Notebooks for plotting MCS statistics. 
+
+* **[Plot seasonal & monthly mean MCS precipitation maps](https://github.com/FlexTRKR/GridRad_MCS/blob/main/Notebooks/plot_gridrad_mcs_rainmap_4season.ipynb):**
+
+![](https://portal.nersc.gov/project/m1867/PyFLEXTRKR/figures/gridrad_v3/rainfrac_mcs_map_2004_2017_4seasons.png)
+
+![](https://portal.nersc.gov/project/m1867/PyFLEXTRKR/figures/gridrad_v3/rain_mcs_map_2004_2017_bymonth.png)
+
+* **[Plot warm season mean MCS precipitation maps](https://github.com/FlexTRKR/GridRad_MCS/blob/main/Notebooks/plot_gridrad_allwarmseason_mcs_rainmap.ipynb):**
+
+![](https://portal.nersc.gov/project/m1867/PyFLEXTRKR/figures/gridrad_v3/Apr-Aug_mcs_season_mean_rainfracmap_2004_2021.png)
+
+* **[Compare MCS track statistics between V3 and V2](https://github.com/FlexTRKR/GridRad_MCS/blob/main/Notebooks/compare_robust_mcs_trackstats_by_season_v3_v2.ipynb):**
+
+![](https://portal.nersc.gov/project/m1867/PyFLEXTRKR/figures/gridrad_v3/kde1d_mcs_JJA_2x4_USA.png)
+
+![](https://portal.nersc.gov/project/m1867/PyFLEXTRKR/figures/gridrad_v3/mcs_composite_evolution_USA_JJA.png)
+
 
 --
 
